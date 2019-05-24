@@ -1,0 +1,27 @@
+#footer {
+  background-color: #dce57a;
+  font-size: 14px;
+}
+
+.tbc {
+  padding: 0 10px;
+}
+
+.tb-div {
+  position: relative;
+}
+
+.tb {
+  margin: 0 auto;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: inherit;
+    color: inherit;
+}
+
+#copy{
+  margin: 0 10px
+}

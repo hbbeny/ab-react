@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Tahoma, Verdana, sans-serif;
+  background-color: #6BB53B;
+  text-decoration: none;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.7s ease;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.white {
+  background-color: white
+}
+
+#wall{
+  margin-right: -15px;
+  margin-left: -15px
+}
+
+.noPadding{
+  padding: 0;
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0
+}
+
+@media (max-width: 767px){
+#wall{
+  margin-right: 0;
+  margin-left: 0
+}}
+
+@media (max-width: 1200px){
+.container {
+    max-width: 1140px;
+}}
+@media (max-width: 992px){
+.container {
+    max-width: 960px;
+}}
+@media (max-width: 768px){
+.container {
+    max-width: 720px;
+}}
+
+@media (max-width: 576px){
+.container {
+    max-width: 720px;
+}}
+
+/* @media (max-width: 576px){
+  div:not(.category){
+      padding: 0 !important;
+  }} */

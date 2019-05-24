@@ -1,0 +1,45 @@
+#nav{
+    background-color: #6BB53B;
+    text-align: center;
+    font-family: Tahoma Bold, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 14px 0;
+}
+.nav, .nav-li{
+    display: inline;
+}
+.nav-li{
+    padding: 10px 15px;
+}
+
+.nav-a:hover{
+  color: #dce57a;
+  transition: all 0.7s ease;
+}
+
+.nav-a.active{
+    color: #dce57a;
+}
+
+@media (max-width: 992px) { 
+    #nav{
+        font-size: 0.775rem;
+    }
+}
+
+@media (max-width: 768px) { 
+    #nav{
+        font-size: 0.63rem;
+    }
+}
+@media (max-width: 576px) {
+    .nav, .nav-li{
+        display: block;
+        padding: 0
+    }
+
+    #nav{
+        font-size: 0.8rem;
+    }
+}

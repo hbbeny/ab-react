@@ -1,0 +1,38 @@
+#inner-header {
+    padding: 0;
+    position: relative;
+    font-size: 11px;
+  }
+
+#header-contacts{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    font-size: 14px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#header-contact-link{
+    display: block;
+}
+
+@media (max-width: 576px){
+    #header-contacts {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 767px){
+    #header-contacts {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 991px){
+    #header-contacts {
+        font-size: 11px;
+    }
+}

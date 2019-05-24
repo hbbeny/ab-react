@@ -1,0 +1,32 @@
+.jumbotron-link-div{
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    height: 25%;
+    display: grid;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr;
+}
+.jumbotron-link-div:not(:last-child){
+    border-bottom: 2px #fff solid;
+}
+
+.jumbotron-link{
+    align-self: center;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr;
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-row-align: center
+}
+
+.jumbotron-link:hover {
+color: #6BB53B;
+transition: all 0.7s ease;
+}
+
+.jumbotron-link.active{
+    color: #6BB53B;
+}
