@@ -7,8 +7,8 @@ import Categories from './containers/Categories/Categories.js'
 import Footer from './components/Footer/Footer.js'
 import Content from './containers/Content/Content.js'
 import Gap from './components/Gap/Gap.js'
-import Jumbotron from './containers/Jumbotron/Jumbotron.js'
 import Nav from './components/Nav/Nav.js'
+import Jumbotron from './containers/Jumbotron/Jumbotron.js'
 
 class App extends Component {
   render () {
